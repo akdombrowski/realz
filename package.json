@@ -2,7 +2,7 @@
   "name": "react-material-ui-firebase",
   "version": "2.1.8",
   "description": "The three musketeers, all in one pack in the form of a boilerplate app",
-  "homepage": "https://phoqe.me/react-material-ui-firebase",
+  "homepage": "https://realtormatchmaking-a6701.firebaseapp.com/",
   "bugs": {
     "url": "https://github.com/phoqe/react-material-ui-firebase/issues",
     "email": "phoqe@phoqe.dev"
@@ -22,24 +22,21 @@
   },
   "config": {
     "title": "React + Material-UI + Firebase",
-
     "theme": {
       "primaryColor": "blue",
       "secondaryColor": "red",
       "type": "light"
     },
-
     "firebase": {
       "apiKey": "AIzaSyDYZOrZVpXkPQD6J31mb9t2eIIxmGEJK-Q",
-      "authDomain": "react-material-ui-firebase.firebaseapp.com",
-      "databaseUrl": "https://react-material-ui-firebase.firebaseio.com",
-      "projectId": "react-material-ui-firebase",
-      "storageBucket": "react-material-ui-firebase.appspot.com",
+      "authDomain": "https://realtormatchmaking-a6701.firebaseapp.com/",
+      "databaseUrl": "https://realtormatchmaking-a6701.firebaseio.com",
+      "projectId": "realtormatchmaking-a6701",
+      "storageBucket": "realtormatchmaking-a6701.appspot.com",
       "messagingSenderId": "552659850812",
       "appId": "1:552659850812:web:d685f74f72161d96",
       "measurementId": "G-LYJ69M3CEC"
     },
-
     "sentry": {
       "dsn": "https://78536326e6524916b6f44b4ea510b7a4@sentry.io/1846624"
     }
@@ -50,6 +47,9 @@
     "@material-ui/styles": "^4.7.1",
     "@sentry/browser": "^5.10.2",
     "firebase": "^7.6.1",
+    "got": "^10.2.1",
+    "ky": "^0.16.1",
+    "ky-universal": "^0.3.0",
     "lodash": "^4.17.15",
     "mdi-material-ui": "^6.10.0",
     "moment": "^2.24.0",
@@ -67,7 +67,6 @@
     "gh-pages": "^2.1.1"
   },
   "private": true,
-
   "eslintConfig": {
     "extends": "react-app"
   },
