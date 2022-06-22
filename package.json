@@ -47,7 +47,7 @@
         "@material-ui/styles": "^4.7.1",
         "@sentry/browser": "^5.10.2",
         "firebase": "^7.6.1",
-        "got": "^10.2.1",
+        "got": "^11.8.5",
         "ky": "^0.16.1",
         "ky-universal": "^0.3.0",
         "lodash": "^4.17.15",
